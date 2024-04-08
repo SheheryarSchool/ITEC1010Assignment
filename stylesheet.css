@@ -1,0 +1,66 @@
+
+/*This is the design of the header, it is setting the color and allignment as well as spacing */
+ header {
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header a {
+      color: white;
+      margin: 15px;
+    }
+
+    body {
+      background: rgba(2, 21, 46, 0.918);
+      color: white;
+    }
+
+     footer {
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: white;
+      margin: 15px;
+    }
+/* This is taking the paragraph in the intro and adding a border and spacing*/
+.introtext {
+  border-style:dotted;
+  padding: 10px;
+  text-align: center;
+}
+/*Below is for all paragraph formatting*/
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin:10px;
+  padding:15px;
+}
+/*This is for after the introduction section, for the photo of me and dad*/
+.pic1 {
+  width:350px;
+  height:250px;
+  float:left;
+  margin:15px;
+  border-radius:15%;
+}
+/*This is for the three elements below the Professional Experience section. This will allow the three elements to be in a single row with spaces in between and is connected to the side of the page so it will adjust depending on browsing screen size*/
+.container {
+  display: flex;
+}
+.pic1,
+.InsidePhoneShop,
+.PhoneRepair {
+  flex-grow:0.5;
+  padding-left:15px;
+  padding-right:15px;
+  padding-bottom:15px;
+}
+.InsidePhoneShop {
+  margin-left: auto; /* Pushes InsidePhoneShop to the right because it was more to the left*/
+}
+/*This is for the Company job video, for it to be in the middle underneath the headers*/
